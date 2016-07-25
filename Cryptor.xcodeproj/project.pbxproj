@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040D48A51D41D1BC00E40D41 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D48A41D41D1BC00E40D41 /* libSystem.tbd */; };
+		044B07241D3DC83C00773A40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B07231D3DC83C00773A40 /* AppDelegate.swift */; };
+		044B07261D3DC83C00773A40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B07251D3DC83C00773A40 /* ViewController.swift */; };
+		044B07291D3DC83D00773A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B07271D3DC83D00773A40 /* Main.storyboard */; };
+		044B072B1D3DC83D00773A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B072A1D3DC83D00773A40 /* Assets.xcassets */; };
+		044B072E1D3DC83D00773A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B072C1D3DC83D00773A40 /* LaunchScreen.storyboard */; };
+		044B07371D3DD24600773A40 /* SymmetricCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B07361D3DD24600773A40 /* SymmetricCryptor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040D48A41D41D1BC00E40D41 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		044B07201D3DC83C00773A40 /* Cryptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B07231D3DC83C00773A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044B07251D3DC83C00773A40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044B07281D3DC83D00773A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044B072A1D3DC83D00773A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044B072D1D3DC83D00773A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044B072F1D3DC83D00773A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B07351D3DCC8200773A40 /* CommonCrypto_Header_h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCrypto_Header_h.h; sourceTree = "<group>"; };
+		044B07361D3DD24600773A40 /* SymmetricCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymmetricCryptor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044B071D1D3DC83C00773A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040D48A51D41D1BC00E40D41 /* libSystem.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044B07171D3DC83B00773A40 = {
+			isa = PBXGroup;
+			children = (
+				040D48A41D41D1BC00E40D41 /* libSystem.tbd */,
+				044B07221D3DC83C00773A40 /* Cryptor */,
+				044B07211D3DC83C00773A40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044B07211D3DC83C00773A40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B07201D3DC83C00773A40 /* Cryptor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044B07221D3DC83C00773A40 /* Cryptor */ = {
+			isa = PBXGroup;
+			children = (
+				044B07231D3DC83C00773A40 /* AppDelegate.swift */,
+				044B07251D3DC83C00773A40 /* ViewController.swift */,
+				044B07361D3DD24600773A40 /* SymmetricCryptor.swift */,
+				044B07351D3DCC8200773A40 /* CommonCrypto_Header_h.h */,
+				044B07271D3DC83D00773A40 /* Main.storyboard */,
+				044B072A1D3DC83D00773A40 /* Assets.xcassets */,
+				044B072C1D3DC83D00773A40 /* LaunchScreen.storyboard */,
+				044B072F1D3DC83D00773A40 /* Info.plist */,
+			);
+			path = Cryptor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044B071F1D3DC83C00773A40 /* Cryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B07321D3DC83D00773A40 /* Build configuration list for PBXNativeTarget "Cryptor" */;
+			buildPhases = (
+				044B071C1D3DC83C00773A40 /* Sources */,
+				044B071D1D3DC83C00773A40 /* Frameworks */,
+				044B071E1D3DC83C00773A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cryptor;
+			productName = Cryptor;
+			productReference = 044B07201D3DC83C00773A40 /* Cryptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044B07181D3DC83B00773A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					044B071F1D3DC83C00773A40 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 044B071B1D3DC83C00773A40 /* Build configuration list for PBXProject "Cryptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044B07171D3DC83B00773A40;
+			productRefGroup = 044B07211D3DC83C00773A40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044B071F1D3DC83C00773A40 /* Cryptor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044B071E1D3DC83C00773A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B072E1D3DC83D00773A40 /* LaunchScreen.storyboard in Resources */,
+				044B072B1D3DC83D00773A40 /* Assets.xcassets in Resources */,
+				044B07291D3DC83D00773A40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044B071C1D3DC83C00773A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B07261D3DC83C00773A40 /* ViewController.swift in Sources */,
+				044B07371D3DD24600773A40 /* SymmetricCryptor.swift in Sources */,
+				044B07241D3DC83C00773A40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		044B07271D3DC83D00773A40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B07281D3DC83D00773A40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044B072C1D3DC83D00773A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B072D1D3DC83D00773A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044B07301D3DC83D00773A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044B07311D3DC83D00773A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044B07331D3DC83D00773A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pengrui.cz.Cryptor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/Cryptor/Cryptor/CommonCrypto_Header_h.h;
+			};
+			name = Debug;
+		};
+		044B07341D3DC83D00773A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pengrui.cz.Cryptor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/Cryptor/Cryptor/CommonCrypto_Header_h.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044B071B1D3DC83C00773A40 /* Build configuration list for PBXProject "Cryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B07301D3DC83D00773A40 /* Debug */,
+				044B07311D3DC83D00773A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B07321D3DC83D00773A40 /* Build configuration list for PBXNativeTarget "Cryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B07331D3DC83D00773A40 /* Debug */,
+				044B07341D3DC83D00773A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044B07181D3DC83B00773A40 /* Project object */;
+}
